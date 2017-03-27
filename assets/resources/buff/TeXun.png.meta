@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "dd51f233-6604-42cc-9c57-670e88e95f2b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "TeXun": {
+      "ver": "1.0.3",
+      "uuid": "dc54fa41-df23-426d-b10e-40eedb524b1e",
+      "rawTextureUuid": "dd51f233-6604-42cc-9c57-670e88e95f2b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": -0.5,
+      "trimX": 2,
+      "trimY": 4,
+      "width": 161,
+      "height": 141,
+      "rawWidth": 164,
+      "rawHeight": 148,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
