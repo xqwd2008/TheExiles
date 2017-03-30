@@ -18,8 +18,18 @@ cc.Class({
             type: cc.AudioSource
         },
         
-        button:{
-            default: [],
+        musicBt:{
+            default: null,
+            type: cc.Button
+        },
+        
+        soundBt:{
+            default: null,
+            type: cc.Button
+        },
+        
+        GameBt:{
+            default: null,
             type: cc.Button
         },
         
@@ -59,6 +69,8 @@ cc.Class({
         var anima = this.node.getComponent (cc.Animation);
         anima.play ().wrapMode = cc.WrapMode.Reverse;
         //背景音乐的处理
+        cc.sys.localStorage.removeItem('music');
+        cc.sys.localStorage.removeItem('sound');
         var musicOpen = cc.sys.localStorage.getItem('music');
         this.musicSwitch(musicOpen);
         var soundOpen = cc.sys.localStorage.getItem('sound');
@@ -70,23 +82,25 @@ cc.Class({
         var gameOpen = cc.sys.localStorage.getItem('game');
         if(gameOpen){
             this.gameLabel.textKey = "Continue";
-            this.resetBt.setPositionX(0);
+            this.resetBt.active = true;
         }
-
     },
     
     musicSwitch: function (musicOpen){
-        var musicSprite = this.button[1].getComponent(cc.Sprite);
+        var musicurl = null;
+        var musicSprite = this.musicBt.getComponent(cc.Sprite);
         if(!musicOpen || musicOpen == 1){
             this.music.play();
-            cc.loader.loadRes('menu/musicOn', cc.SpriteFrame, function (error, spriteFrame){
+            musicurl = 'menu/musicOn';
+            cc.loader.loadRes(musicurl, cc.SpriteFrame, function (error, spriteFrame){
                 if (!error) {
                 musicSprite.spriteFrame = spriteFrame;
                 }
             });
         }else{
             this.music.stop ();
-            cc.loader.loadRes('menu/musicOff', cc.SpriteFrame, function (error, spriteFrame){
+            musicurl = 'menu/musicOff';
+            cc.loader.loadRes(musicurl, cc.SpriteFrame, function (error, spriteFrame){
                 if (!error) {
                     musicSprite.spriteFrame = spriteFrame;
                 }
@@ -110,17 +124,19 @@ cc.Class({
     
     soundSwitch: function (soundOpen){
         var soundurl = null;
-        var soundSprite = this.button[2].getComponent(cc.Sprite);
+        var soundSprite = this.soundBt.getComponent(cc.Sprite);
         if(!soundOpen || soundOpen == 1){
             this.sound.volume = 1;
-            cc.loader.loadRes('menu/soundOn', cc.SpriteFrame, function (error, spriteFrame){
+            soundurl = 'menu/soundOn';
+            cc.loader.loadRes(soundurl, cc.SpriteFrame, function (error, spriteFrame){
                 if (!error) {
                     soundSprite.spriteFrame = spriteFrame;
                 }
             });
         }else{
             this.sound.volume = 0;
-            cc.loader.loadRes('menu/soundOff', cc.SpriteFrame, function (error, spriteFrame){
+            soundurl = 'menu/soundOff';
+            cc.loader.loadRes(soundurl, cc.SpriteFrame, function (error, spriteFrame){
                 if (!error) {
                     soundSprite.spriteFrame = spriteFrame;
                 }
@@ -146,10 +162,10 @@ cc.Class({
         var anima = this.node.getComponent (cc.Animation);
         anima.play ().wrapMode = cc.WrapMode.Normal;
         this.switch = true;
-        this.button[0].interactable = false;
-        this.button[1].interactable = false;
-        this.button[2].interactable = false;
+        this.GameBt.interactable = false;
         this.resetBt.interactable = false;
+        this.musicBt.interactable = false;
+        this.soundBt.interactable = false;
         this.sound.play();
     },
 
@@ -158,10 +174,10 @@ cc.Class({
             this.time -= 1;
             if(this.time ===0 ){
                 this.switch = false;
-                this.button[0].interactable = false;
-                this.button[1].interactable = false;
-                this.button[2].interactable = false;
-                this.resetBt.interactable = false;
+                this.GameBt.interactable = true;
+                this.resetBt.interactable = true;
+                this.musicBt.interactable = true;
+                this.soundBt.interactable = true;
                 cc.sys.localStorage.setItem('game', 1);
                 cc.director.loadScene("Game");
             }
@@ -175,10 +191,12 @@ cc.Class({
     },
     
     resetGame: function(){
-        this.resetBt.setPositionX(2000);
-        this.resetcancel();
+        this.resetBt.active = false;
+        this.baffle.setPositionX(2000);
+        this.prompt.setPositionX(2000);
         this.gameLabel.textKey = "Start Game";
         cc.sys.localStorage.removeItem('game');
+        this.sound.play();
     },
     
     resetcancel: function(){

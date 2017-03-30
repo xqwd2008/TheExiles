@@ -194,7 +194,7 @@
   //
   Polyglot.prototype.t = function(key, options) {
     var phrase, result;
-    options = options == null ? {} : options;
+    options = options === null ? {} : options;
     // allow number as a pluralization shortcut
     if (typeof options === 'number') {
       options = {smart_count: options};
@@ -276,7 +276,7 @@
   // plural form, or none if `count` is `null`.
   function choosePluralForm(text, locale, count){
     var ret, texts, chosenText;
-    if (count != null && text) {
+    if (count !== null && text) {
       texts = text.split(delimeter);
       chosenText = texts[pluralTypeIndex(locale, count)] || texts[0];
       ret = trim(chosenText);
