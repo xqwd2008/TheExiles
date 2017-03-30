@@ -55,17 +55,15 @@ cc.Class({
                 title.spriteFrame = spriteFrame;
             }});
         }
-        //载入时播放动画
-        var anima = this.node.getComponent (cc.Animation);
-        anima.play ().wrapMode = cc.WrapMode.Reverse;
         //背景音乐的处理
         var musicOpen = cc.sys.localStorage.getItem('music');
         this.musicSwitch(musicOpen);
         var soundOpen = cc.sys.localStorage.getItem('sound');
         this.soundSwitch(soundOpen);
         //初始化一些函数
-        this.time = 15;
         this.switch = false;
+        this.number = 0;
+        this.reset = this.resetBt.getComponent(cc.Button);
         //按钮状态
         var gameOpen = cc.sys.localStorage.getItem('game');
         if(gameOpen){
@@ -105,7 +103,6 @@ cc.Class({
         }
         cc.sys.localStorage.setItem('music', musicOpen);
         this.musicSwitch(musicOpen);
-        this.sound.play();
     },
     
     soundSwitch: function (soundOpen){
@@ -132,6 +129,7 @@ cc.Class({
         var soundOpen = cc.sys.localStorage.getItem('sound');
         if(!soundOpen || soundOpen == 1){
             soundOpen = 2;
+            this.click = true;
             cc.loader.releaseRes("menu/soundOn", cc.SpriteFrame);
         }else{
             soundOpen = 1;
@@ -139,51 +137,46 @@ cc.Class({
         }
         cc.sys.localStorage.setItem('sound', soundOpen);
         this.soundSwitch(soundOpen);
-        this.sound.play();
     },
     
     startGame: function(){
         var anima = this.node.getComponent (cc.Animation);
         anima.play ().wrapMode = cc.WrapMode.Normal;
         this.switch = true;
-        this.button[0].interactable = false;
-        this.button[1].interactable = false;
-        this.button[2].interactable = false;
-        this.resetBt.interactable = false;
-        this.sound.play();
+        var Bl = false;
+        this.inte(Bl);
     },
-
-    update: function (dt) {
+    
+    sceneLoad: function(){
         if(this.switch){
-            this.time -= 1;
-            if(this.time ===0 ){
-                this.switch = false;
-                this.button[0].interactable = false;
-                this.button[1].interactable = false;
-                this.button[2].interactable = false;
-                this.resetBt.interactable = false;
-                cc.sys.localStorage.setItem('game', 1);
-                cc.director.loadScene("Game");
-            }
+            cc.sys.localStorage.setItem('game', 1);
+            cc.director.loadScene("Game");
         }
     },
     
-    resetprompt: function(){
-        this.baffle.setPositionX(0);
-        this.prompt.setPositionX(0);
-        this.sound.play();
+    inte: function(Bl){
+        for(var i=0;i<3;++i){
+            this.button[i].interactable = Bl;
+        }
+        this.reset.interactable = Bl;
+    },
+
+    resetprompt: function(oj,num){
+        cc.log(num);
+        this.baffle.setPositionX(num);
+        this.prompt.setPositionX(num);
+        num > 0? this.reset.interactable = true:this.reset.interactable = false;
     },
     
     resetGame: function(){
         this.resetBt.setPositionX(2000);
-        this.resetcancel();
+        this.resetprompt(0,2000);
         this.gameLabel.textKey = "Start Game";
         cc.sys.localStorage.removeItem('game');
     },
     
-    resetcancel: function(){
-        this.baffle.setPositionX(2000);
-        this.prompt.setPositionX(2000);
-        this.sound.play();
-    }
+    soundPlay: function(){
+        !this.click? this.sound.play():this.sound.stop();
+        this.click = false;
+    },
 });

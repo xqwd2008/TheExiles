@@ -6,7 +6,7 @@
   "_duration": 0.5833333333333334,
   "sample": 60,
   "speed": 1,
-  "wrapMode": 1,
+  "wrapMode": 36,
   "curveData": {
     "props": {
       "opacity": [
@@ -27,5 +27,13 @@
       }
     }
   },
-  "events": []
+  "events": [
+    {
+      "frame": 0.5833333333333334,
+      "func": "sceneLoad",
+      "params": [
+        ""
+      ]
+    }
+  ]
 }
