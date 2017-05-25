@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Next",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "color": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 26,
+            "g": 112,
+            "b": 26,
+            "a": 255
+          }
+        },
+        {
+          "frame": 1,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 255
+          }
+        },
+        {
+          "frame": 2,
+          "value": {
+            "__type__": "cc.Color",
+            "r": 26,
+            "g": 122,
+            "b": 26,
+            "a": 255
+          }
+        }
+      ]
+    }
+  },
+  "events": []
+}

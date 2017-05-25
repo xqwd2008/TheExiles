@@ -1,0 +1,87 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeRecycling",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.6,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "4f71f13c-fc79-4325-9747-1d7f94de9e71"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "92a0270f-8cd4-403a-857b-736369ed1088"
+            }
+          },
+          {
+            "frame": 0.23333333333333334,
+            "value": {
+              "__uuid__": "dd1a217c-aa61-47cb-a2c6-c493dbf472db"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "66769169-6de8-440f-afad-2a9b6a8b93ad"
+            }
+          },
+          {
+            "frame": 0.36666666666666664,
+            "value": {
+              "__uuid__": "ad70ea59-d640-447b-85f9-47f529a1bfd5"
+            }
+          },
+          {
+            "frame": 0.43333333333333335,
+            "value": {
+              "__uuid__": "4b7bf5aa-b012-48e2-838a-5dc5f4fdc877"
+            }
+          },
+          {
+            "frame": 0.48333333333333334,
+            "value": {
+              "__uuid__": "860f6f25-e6c6-4057-954f-7a50d0d4eb49"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "7f73c9d3-5577-427e-88bc-d29278e34ff0"
+            }
+          },
+          {
+            "frame": 0.5833333333333334,
+            "value": {
+              "__uuid__": "b770a4bd-a575-4404-8ee3-a86de3ddc37f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.16666666666666666,
+      "func": "moveX",
+      "params": [
+        50,
+        "0"
+      ]
+    },
+    {
+      "frame": 0.5833333333333334,
+      "func": "Attack",
+      "params": []
+    }
+  ]
+}

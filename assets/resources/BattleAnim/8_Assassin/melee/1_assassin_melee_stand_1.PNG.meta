@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9bfd4ee4-b5aa-4233-bfba-4da8bc2eb1ba",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "1_assassin_melee_stand_1": {
+      "ver": "1.0.3",
+      "uuid": "da381732-af6b-44eb-bbca-45417c6b8924",
+      "rawTextureUuid": "9bfd4ee4-b5aa-4233-bfba-4da8bc2eb1ba",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 145,
+      "offsetY": -162,
+      "trimX": 473,
+      "trimY": 357,
+      "width": 144,
+      "height": 210,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FarDodge",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.3,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "1fe7b8ef-640c-4c1e-8166-691436d633aa"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "c5c104eb-8b1a-4862-b258-d3f727c645ca"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "083333df-757d-401d-a2c3-cce4198b312e"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "c5c104eb-8b1a-4862-b258-d3f727c645ca"
+            }
+          },
+          {
+            "frame": 0.2833333333333333,
+            "value": {
+              "__uuid__": "1fe7b8ef-640c-4c1e-8166-691436d633aa"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

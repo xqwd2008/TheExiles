@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0ee882a5-9624-49fe-b7b6-1f96d6ff299b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "far_CavalryArcher_5_19_critStart": {
+      "ver": "1.0.3",
+      "uuid": "f8301d71-4286-4b1e-bca9-c55a35ce6762",
+      "rawTextureUuid": "0ee882a5-9624-49fe-b7b6-1f96d6ff299b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 235,
+      "offsetY": -57,
+      "trimX": 562,
+      "trimY": 147,
+      "width": 246,
+      "height": 420,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

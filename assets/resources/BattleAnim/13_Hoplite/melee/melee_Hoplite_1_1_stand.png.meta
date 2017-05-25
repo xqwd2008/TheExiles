@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b517fc9c-62fb-49e6-b072-c0f4fd5f7661",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "melee_Hoplite_1_1_stand": {
+      "ver": "1.0.3",
+      "uuid": "871a0ce1-ba1a-422c-a879-cbef94b5a4d5",
+      "rawTextureUuid": "b517fc9c-62fb-49e6-b072-c0f4fd5f7661",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 129,
+      "offsetY": -153,
+      "trimX": 399,
+      "trimY": 339,
+      "width": 360,
+      "height": 228,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

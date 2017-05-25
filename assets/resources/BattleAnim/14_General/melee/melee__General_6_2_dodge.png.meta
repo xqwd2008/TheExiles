@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "6a9134e2-b7d6-46ec-afe6-b4d561b2aa25",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "melee__General_6_2_dodge": {
+      "ver": "1.0.3",
+      "uuid": "f10d8afe-252c-4bec-a8d9-32770403083a",
+      "rawTextureUuid": "6a9134e2-b7d6-46ec-afe6-b4d561b2aa25",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -29,
+      "offsetY": -73,
+      "trimX": 325,
+      "trimY": 291,
+      "width": 342,
+      "height": 264,
+      "rawWidth": 1050,
+      "rawHeight": 700,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

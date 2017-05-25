@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9e845a4f-a4c4-4063-a9e4-6c2824711a45",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "2_sniper_far_attackStart_9": {
+      "ver": "1.0.3",
+      "uuid": "18231d1c-9588-4497-9e26-9e5230a7ffe0",
+      "rawTextureUuid": "9e845a4f-a4c4-4063-a9e4-6c2824711a45",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 118,
+      "offsetY": -102,
+      "trimX": 437,
+      "trimY": 225,
+      "width": 162,
+      "height": 354,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

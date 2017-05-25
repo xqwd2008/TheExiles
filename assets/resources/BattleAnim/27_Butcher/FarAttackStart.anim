@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FarAttackStart",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.21666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "f70c4ed0-13c3-4d8a-9664-f3ee65b81255"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "b43e61fc-bb67-49b2-a3d0-cd3587f23d35"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "dafa9801-d56f-414c-b4a2-17e504269076"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "ce6b6da6-4bc3-49be-8a5f-e06550a5eb2d"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.2,
+      "func": "FarAttackStart",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "660ecd7f-fcbd-4212-a86b-f6e01e7894cb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "melee_CavalryArcher_5_9_critStart": {
+      "ver": "1.0.3",
+      "uuid": "24842414-1e63-4ce3-bec1-06c82dda734a",
+      "rawTextureUuid": "660ecd7f-fcbd-4212-a86b-f6e01e7894cb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 117,
+      "offsetY": -123,
+      "trimX": 417,
+      "trimY": 279,
+      "width": 300,
+      "height": 288,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

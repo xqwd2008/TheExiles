@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeRecycling",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.6833333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "ca6a1a73-5c28-458c-af07-688dbece5313"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "79d7fb93-0f2e-40b0-b23e-32121b055807"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "d4903d04-f2ad-4e0e-8677-1a6a3884eaa6"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "0fc344d0-e28a-40eb-91c4-2e290457765f"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "a82385e2-f315-4d2b-89b2-9d9ac810563c"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "2d5460fd-d1fd-4125-a473-9232d170e7c2"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "c66ebd73-e2e7-43d9-9ff1-a4fc918c2196"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "bf259e29-0184-416d-8d4d-7cc050f9aa32"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "d2012a38-b266-45ac-9ad9-74ebfd483b1d"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "4f1cdfcc-1cb9-48f0-8446-2e790f9c15f3"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "36c55e9a-9276-463e-8c97-f15b940a918a"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.6666666666666666,
+      "func": "Attack",
+      "params": []
+    }
+  ]
+}

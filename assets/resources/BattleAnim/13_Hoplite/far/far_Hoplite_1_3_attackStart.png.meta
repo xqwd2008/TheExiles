@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8c431863-ce4f-40cf-a6a7-b61e7bc9d79a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "far_Hoplite_1_3_attackStart": {
+      "ver": "1.0.3",
+      "uuid": "dffa5e11-a1c8-4da8-98be-29975404f01d",
+      "rawTextureUuid": "8c431863-ce4f-40cf-a6a7-b61e7bc9d79a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 135,
+      "offsetY": -156,
+      "trimX": 402,
+      "trimY": 339,
+      "width": 366,
+      "height": 234,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

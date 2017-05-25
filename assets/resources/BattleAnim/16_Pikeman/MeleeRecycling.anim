@@ -1,0 +1,115 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeRecycling",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.95,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "1e2dd9a8-9750-4333-b64a-9686e38dddc8"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "f51ee899-4647-4141-b99c-980cbfcd1d09"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "2057770c-b6cd-423c-84b2-df6a53c20cda"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "c53b2e34-5f2d-46a3-ae04-d3ee18a37b3a"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "18212bbb-83af-4234-b2b6-ce5b338ab30a"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "b037fa38-d988-43d0-84db-ee7f96a2631e"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "b9dbe466-b048-4856-883b-f8a2d71bb7dc"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "368e519e-3266-46c1-9a8c-87317c0f929c"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "d534787d-f9d9-4e7e-a076-a2a5902b56b7"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "83afc35b-4f44-47dc-b339-cf786b7adc1a"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "8e07e5cb-02ff-4a88-8fcf-5bbf87f7655e"
+            }
+          },
+          {
+            "frame": 0.7333333333333333,
+            "value": {
+              "__uuid__": "9c9f0b5d-16de-4d0f-a6ce-9018900fc03a"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "abb0370c-548c-401e-afbe-4c304df4872b"
+            }
+          },
+          {
+            "frame": 0.8666666666666667,
+            "value": {
+              "__uuid__": "7f6f077c-13c6-46ff-962d-506ca89035f5"
+            }
+          },
+          {
+            "frame": 0.9333333333333333,
+            "value": {
+              "__uuid__": "bc0585ad-234a-4de8-aced-dac5426dd0e5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.9333333333333333,
+      "func": "Attack",
+      "params": []
+    }
+  ]
+}

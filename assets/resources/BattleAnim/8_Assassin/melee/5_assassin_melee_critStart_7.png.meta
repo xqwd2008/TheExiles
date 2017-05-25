@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "011d87b6-47df-475b-bda7-7843ccd2cf24",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "5_assassin_melee_critStart_7": {
+      "ver": "1.0.3",
+      "uuid": "0bcc83f3-c516-46a6-9ced-c26a4f28c1fb",
+      "rawTextureUuid": "011d87b6-47df-475b-bda7-7843ccd2cf24",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 139,
+      "offsetY": -162,
+      "trimX": 461,
+      "trimY": 357,
+      "width": 156,
+      "height": 210,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

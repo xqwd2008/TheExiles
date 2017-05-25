@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeRecycling",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.7,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8056e5cb-e252-4648-8f86-3cc16446d2f9"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "ec452ebf-d62f-4f25-bbfb-f274014810ef"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "49a794d2-ab9b-4719-8542-63fbafec2a6d"
+            }
+          },
+          {
+            "frame": 0.35,
+            "value": {
+              "__uuid__": "1c5f15fe-f6b3-4885-a51e-70e5c85c998f"
+            }
+          },
+          {
+            "frame": 0.43333333333333335,
+            "value": {
+              "__uuid__": "cef66062-5a50-4636-8431-233cc504dbe8"
+            }
+          },
+          {
+            "frame": 0.5166666666666667,
+            "value": {
+              "__uuid__": "fa1c18c9-4da6-48bb-a4c4-9d6c5ed7d956"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "d92519a6-716d-4de2-b72f-fa1e2edb1ff8"
+            }
+          },
+          {
+            "frame": 0.6833333333333333,
+            "value": {
+              "__uuid__": "56faa148-eeef-4ca7-a410-4ae047428020"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.6833333333333333,
+      "func": "Attack",
+      "params": []
+    }
+  ]
+}

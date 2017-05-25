@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "3343dec7-1f09-4c92-aa10-9e60eefc784e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "7_assassin_melee_dodge_1": {
+      "ver": "1.0.3",
+      "uuid": "a10d0abc-6218-4780-b616-0bb1a6660379",
+      "rawTextureUuid": "3343dec7-1f09-4c92-aa10-9e60eefc784e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 151,
+      "offsetY": -174,
+      "trimX": 455,
+      "trimY": 381,
+      "width": 192,
+      "height": 186,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

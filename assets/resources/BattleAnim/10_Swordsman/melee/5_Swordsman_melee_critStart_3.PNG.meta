@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ac05487e-1d27-4081-9d56-16ba8750aef4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "5_Swordsman_melee_critStart_3": {
+      "ver": "1.0.3",
+      "uuid": "6d3283b0-12dd-4881-9ea0-ee2cadbbde93",
+      "rawTextureUuid": "ac05487e-1d27-4081-9d56-16ba8750aef4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 275,
+      "offsetY": -159,
+      "trimX": 611,
+      "trimY": 351,
+      "width": 228,
+      "height": 216,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

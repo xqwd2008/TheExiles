@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8b6428bd-4325-4870-8219-3066a28a22b3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "3_Berserker_melee_hitbefore_4": {
+      "ver": "1.0.3",
+      "uuid": "0ffa5965-c2e4-4f84-9ed9-36186fa63575",
+      "rawTextureUuid": "8b6428bd-4325-4870-8219-3066a28a22b3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -17,
+      "offsetY": -54,
+      "trimX": 149,
+      "trimY": 141,
+      "width": 468,
+      "height": 426,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

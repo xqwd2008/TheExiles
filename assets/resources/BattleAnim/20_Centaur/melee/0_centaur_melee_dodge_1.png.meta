@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9a2bf830-378a-46ea-9c30-2d6bb2a7b577",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "0_centaur_melee_dodge_1": {
+      "ver": "1.0.3",
+      "uuid": "42cd118e-1428-4b5c-852f-d60fc3f49bcd",
+      "rawTextureUuid": "9a2bf830-378a-46ea-9c30-2d6bb2a7b577",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 132,
+      "offsetY": -81,
+      "trimX": 343,
+      "trimY": 195,
+      "width": 378,
+      "height": 372,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

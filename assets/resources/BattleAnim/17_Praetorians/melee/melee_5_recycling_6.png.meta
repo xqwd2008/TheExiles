@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b8843e8c-3c14-4c8e-ae25-71d47708197c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "melee_5_recycling_6": {
+      "ver": "1.0.3",
+      "uuid": "c825b44c-7983-42ad-bd8e-c645ea42b767",
+      "rawTextureUuid": "b8843e8c-3c14-4c8e-ae25-71d47708197c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 179,
+      "offsetY": -153,
+      "trimX": 527,
+      "trimY": 339,
+      "width": 204,
+      "height": 228,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeAttack",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.6166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8382edf8-3806-4b4e-9b1e-cb1391434150"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "2c68464e-064f-49ce-8f6e-e11953ce6480"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "6b54a785-6aa6-47b8-a4e3-ae4493213865"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "8baeaca2-7e41-4264-947a-19bd3678be3f"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "063728a8-d863-43f6-b514-feca1e1fba20"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "7b62c7f4-95f9-4875-b427-2c67b9635d92"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "47dbf54b-3d42-4af0-a6ca-225ebf9bf7e8"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "0620e56c-e67b-4a7f-a737-1e7c8a950543"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "4a0a559a-c8c6-4e46-9c90-c73f863c911a"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "ca6a1a73-5c28-458c-af07-688dbece5313"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.6,
+      "func": "MeleeAttack",
+      "params": []
+    }
+  ]
+}

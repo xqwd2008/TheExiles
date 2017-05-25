@@ -1,0 +1,193 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeCrit",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.8166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "2fc3f1c7-639d-4621-9b88-36a787bd1c86"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "4b33d9d7-d05b-4aba-bbba-6b593c914dd4"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "7c4827e4-e90d-4319-ab44-22b16a86d3b6"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "7323af00-7d5c-4724-9acc-5ffb34c7ab82"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "d37122fe-5823-44b3-b7ea-cce349e8d81b"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "f6e1084e-7034-4a0a-83ba-00804758a59d"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "8f48c679-c298-4b33-bc6f-a87cb9e344e7"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "21713131-7223-4486-a2bd-a7ebb1fb2092"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "982d8e1f-d947-4851-bc54-1f939f40a6e8"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "f6195dea-a9dc-4625-b853-d353be990df6"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "52becfcf-1c0e-4593-8378-0f041c982cf1"
+            }
+          },
+          {
+            "frame": 0.7333333333333333,
+            "value": {
+              "__uuid__": "dc9cb434-a56f-4706-a547-7282b44ca7bb"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "68a75917-f47f-4898-9c5f-75d0b3d623fb"
+            }
+          },
+          {
+            "frame": 0.8666666666666667,
+            "value": {
+              "__uuid__": "34ec6d3b-a253-4823-8f2d-f9458f06fb5f"
+            }
+          },
+          {
+            "frame": 0.9333333333333333,
+            "value": {
+              "__uuid__": "9853973b-6831-41b0-bdfa-59808e678ef0"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "de50be5b-18e5-4c95-9332-f9de29887e61"
+            }
+          },
+          {
+            "frame": 1.0666666666666667,
+            "value": {
+              "__uuid__": "d5373fe8-ab75-4683-a49a-b9936537f289"
+            }
+          },
+          {
+            "frame": 1.1333333333333333,
+            "value": {
+              "__uuid__": "e8394aa7-3cdb-4a1a-bd5d-021aad12d4e9"
+            }
+          },
+          {
+            "frame": 1.2,
+            "value": {
+              "__uuid__": "d23147df-130b-45bf-8eeb-4963fcef91e6"
+            }
+          },
+          {
+            "frame": 1.2666666666666666,
+            "value": {
+              "__uuid__": "966eaf4d-e8c9-4b7a-a046-26755cf9e2c2"
+            }
+          },
+          {
+            "frame": 1.3333333333333333,
+            "value": {
+              "__uuid__": "37317059-bd96-4bd5-a82f-9058fb9ed640"
+            }
+          },
+          {
+            "frame": 1.4,
+            "value": {
+              "__uuid__": "162bdac7-1198-495f-8f13-3777d20b7af6"
+            }
+          },
+          {
+            "frame": 1.4666666666666666,
+            "value": {
+              "__uuid__": "799de633-064c-4fb4-9c43-458ba4fec4be"
+            }
+          },
+          {
+            "frame": 1.5333333333333334,
+            "value": {
+              "__uuid__": "9d56f127-1b1e-4d18-830a-a8d551db4c56"
+            }
+          },
+          {
+            "frame": 1.6,
+            "value": {
+              "__uuid__": "f40c5569-1351-404d-bc45-7b2164e40206"
+            }
+          },
+          {
+            "frame": 1.6666666666666667,
+            "value": {
+              "__uuid__": "78c4785f-ef2a-4a82-944a-dd2d9be8147b"
+            }
+          },
+          {
+            "frame": 1.7333333333333334,
+            "value": {
+              "__uuid__": "4d3a835d-9eb1-4fde-a0f0-f24c51a37574"
+            }
+          },
+          {
+            "frame": 1.8,
+            "value": {
+              "__uuid__": "5d94d185-08a4-4783-b46f-22fa8f2e52dd"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1.8,
+      "func": "MeleeAttack",
+      "params": []
+    }
+  ]
+}

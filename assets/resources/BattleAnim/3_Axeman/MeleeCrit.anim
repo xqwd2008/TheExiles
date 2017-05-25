@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeCrit",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.48333333333333334,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8da23271-a3c4-43ed-a5a5-648a0d4b9669"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "5314607a-d948-49d7-8edb-d19d7baf363a"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "07a29f7d-fa2d-46d0-a8a2-c938e40f5a52"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "f7f3ab57-1197-404b-a931-ea9f3b73003c"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "8da23271-a3c4-43ed-a5a5-648a0d4b9669"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.4666666666666667,
+      "func": "MeleeAttackStart",
+      "params": []
+    }
+  ]
+}

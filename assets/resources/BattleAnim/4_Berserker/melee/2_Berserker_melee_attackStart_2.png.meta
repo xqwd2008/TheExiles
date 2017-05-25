@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8593faff-4bef-4e21-b208-e35119491f14",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "2_Berserker_melee_attackStart_2": {
+      "ver": "1.0.3",
+      "uuid": "a7979df3-8cba-48cc-b6f2-19e4fed5ce8c",
+      "rawTextureUuid": "8593faff-4bef-4e21-b208-e35119491f14",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 133,
+      "offsetY": -60,
+      "trimX": 449,
+      "trimY": 153,
+      "width": 168,
+      "height": 414,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

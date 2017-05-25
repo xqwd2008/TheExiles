@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "39445c93-5e51-4ca4-8f9d-9115cc7125d8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "far_7_dodge1": {
+      "ver": "1.0.3",
+      "uuid": "6f875c35-8eb3-4862-b307-faba36fc8be9",
+      "rawTextureUuid": "39445c93-5e51-4ca4-8f9d-9115cc7125d8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 168,
+      "offsetY": -216,
+      "trimX": 501,
+      "trimY": 459,
+      "width": 234,
+      "height": 114,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

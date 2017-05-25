@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "907ea8f3-048c-4886-8b15-d928c9eccd7e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "melee_2_attackStart_13": {
+      "ver": "1.0.3",
+      "uuid": "f829b195-2c5b-457d-87ac-9c8eb2bb4cd2",
+      "rawTextureUuid": "907ea8f3-048c-4886-8b15-d928c9eccd7e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 99,
+      "offsetY": 3,
+      "trimX": 279,
+      "trimY": 27,
+      "width": 540,
+      "height": 540,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

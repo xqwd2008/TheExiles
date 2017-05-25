@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b82961de-f6c9-4439-9467-a459c871ab59",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "1_cavalry_melee_stand_0": {
+      "ver": "1.0.3",
+      "uuid": "c531d012-60fa-4074-9907-50687ebc1f7d",
+      "rawTextureUuid": "b82961de-f6c9-4439-9467-a459c871ab59",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 127,
+      "offsetY": -126,
+      "trimX": 335,
+      "trimY": 285,
+      "width": 384,
+      "height": 282,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

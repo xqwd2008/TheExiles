@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b75c687b-442a-44ae-9665-4dd298bb3144",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "12_Berserker_far_recycling_1": {
+      "ver": "1.0.3",
+      "uuid": "ab813a48-5576-4c6a-884c-fe436787c5c5",
+      "rawTextureUuid": "b75c687b-442a-44ae-9665-4dd298bb3144",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 97,
+      "offsetY": -147,
+      "trimX": 377,
+      "trimY": 327,
+      "width": 240,
+      "height": 240,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

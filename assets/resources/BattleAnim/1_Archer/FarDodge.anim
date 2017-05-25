@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Dodge",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.4666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "dd0b96ec-2da7-4df1-91da-95f77fa9f9aa"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "e9c00f0c-0399-411d-9c81-5224f355830e"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "05c5abf7-d4bd-4efd-b40f-e979dd10f39a"
+            }
+          },
+          {
+            "frame": 0.4166666666666667,
+            "value": {
+              "__uuid__": "e9c00f0c-0399-411d-9c81-5224f355830e"
+            }
+          },
+          {
+            "frame": 0.45,
+            "value": {
+              "__uuid__": "dd0b96ec-2da7-4df1-91da-95f77fa9f9aa"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "32be9ee8-7127-429f-a959-5cc48d23a8b2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "4_Swordsman_melee_recycling_6": {
+      "ver": "1.0.3",
+      "uuid": "f8bd4eda-4e32-41d1-96ce-dafd6e1bfba8",
+      "rawTextureUuid": "32be9ee8-7127-429f-a959-5cc48d23a8b2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 233,
+      "offsetY": -147,
+      "trimX": 605,
+      "trimY": 327,
+      "width": 156,
+      "height": 240,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
