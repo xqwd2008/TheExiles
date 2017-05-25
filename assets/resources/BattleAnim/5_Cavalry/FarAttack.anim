@@ -1,0 +1,63 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FarAttack",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.4,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "c531d012-60fa-4074-9907-50687ebc1f7d"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "a5e29c7a-d66a-4775-bfb4-6e19cbf644ce"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "2b743827-4f87-4d11-822a-20772054d88d"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "23b30964-1826-4040-b0f3-c6ac109bee73"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "b3e005dc-0e41-4497-afef-dfe0acd83065"
+            }
+          },
+          {
+            "frame": 0.38333333333333336,
+            "value": {
+              "__uuid__": "ec1afdda-beb4-46a5-ab2e-b7104c082ffe"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.38333333333333336,
+      "func": "FarAttack",
+      "params": [
+        "javelin"
+      ]
+    }
+  ]
+}

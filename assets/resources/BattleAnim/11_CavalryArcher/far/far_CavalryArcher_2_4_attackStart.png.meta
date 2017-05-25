@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "fdfc6011-d2da-4727-9292-84da6580edf7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "far_CavalryArcher_2_4_attackStart": {
+      "ver": "1.0.3",
+      "uuid": "c7b238bf-80d0-4349-8966-1eddebe6f1fe",
+      "rawTextureUuid": "fdfc6011-d2da-4727-9292-84da6580edf7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 201,
+      "offsetY": -126,
+      "trimX": 519,
+      "trimY": 285,
+      "width": 264,
+      "height": 282,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

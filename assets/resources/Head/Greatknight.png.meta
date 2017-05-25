@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d41be0f9-34e6-43f8-9d73-0186aed1f1eb",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "Greatknight": {
+      "ver": "1.0.3",
+      "uuid": "5e583432-b097-4159-b4e8-4d118b110638",
+      "rawTextureUuid": "d41be0f9-34e6-43f8-9d73-0186aed1f1eb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 160,
+      "height": 160,
+      "rawWidth": 160,
+      "rawHeight": 160,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

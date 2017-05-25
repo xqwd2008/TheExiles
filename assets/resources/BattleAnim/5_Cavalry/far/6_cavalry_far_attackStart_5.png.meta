@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "e595503f-7d22-47a7-a5cf-47ec9709d02a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "6_cavalry_far_attackStart_5": {
+      "ver": "1.0.3",
+      "uuid": "ec1afdda-beb4-46a5-ab2e-b7104c082ffe",
+      "rawTextureUuid": "e595503f-7d22-47a7-a5cf-47ec9709d02a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 85,
+      "offsetY": -126,
+      "trimX": 353,
+      "trimY": 285,
+      "width": 264,
+      "height": 282,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

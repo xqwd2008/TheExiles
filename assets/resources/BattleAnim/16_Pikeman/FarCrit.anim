@@ -1,0 +1,93 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FarCrit",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.6833333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "bc0585ad-234a-4de8-aced-dac5426dd0e5"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "584a9a25-908b-43a3-a682-a6f40967d494"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "7bdf36db-9e4a-40ec-bf46-9210b694075b"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "69ded22e-6d88-489e-9482-ed4b8e11521a"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "d10d6396-a171-4cb9-a73e-7abc244237e7"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "9ae5ceb3-0172-4a95-94ff-e9564fe2c40c"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "6be223e2-4a24-4ad7-9abd-5bb9eb05d91e"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "d46d409d-2b3d-476d-9638-495366e4cddb"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "69cc5202-5fd8-4442-94ce-b22538ecd6c1"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "0978ff53-2e5d-46e7-9144-cb52da913a16"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "e7abacef-4da2-4831-add4-440941067290"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.6666666666666666,
+      "func": "FarAttack",
+      "params": [
+        "javelin"
+      ]
+    }
+  ]
+}

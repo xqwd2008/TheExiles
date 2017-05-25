@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "e9b2d6d6-a7ba-48b9-90aa-0cb3911e9ba0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "8_knight_far_critStart_4": {
+      "ver": "1.0.3",
+      "uuid": "01acbfb5-cdde-4d74-aff3-044189e4a103",
+      "rawTextureUuid": "e9b2d6d6-a7ba-48b9-90aa-0cb3911e9ba0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 183,
+      "offsetY": -33,
+      "trimX": 394,
+      "trimY": 99,
+      "width": 378,
+      "height": 468,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

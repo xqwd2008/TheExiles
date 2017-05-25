@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "041c7e8c-4e97-449d-a3ff-07e5bab80987",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "7_sniper_far_dodge_2": {
+      "ver": "1.0.3",
+      "uuid": "083333df-757d-401d-a2c3-cce4198b312e",
+      "rawTextureUuid": "041c7e8c-4e97-449d-a3ff-07e5bab80987",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 154,
+      "offsetY": -174,
+      "trimX": 425,
+      "trimY": 381,
+      "width": 258,
+      "height": 186,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

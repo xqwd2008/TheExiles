@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "af391fd0-a6ff-4d9a-ab91-c8a063f05888",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "4_archers_far_recycling_1": {
+      "ver": "1.0.3",
+      "uuid": "6aa8fcfc-e835-417c-bb1f-f66a0074b146",
+      "rawTextureUuid": "af391fd0-a6ff-4d9a-ab91-c8a063f05888",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 142,
+      "offsetY": -159,
+      "trimX": 458,
+      "trimY": 351,
+      "width": 168,
+      "height": 216,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

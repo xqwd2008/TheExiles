@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0a8d3e76-8b9c-4e59-a3ba-25d50f7b6fb5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "2_Swordsman_melee_attackStart_11": {
+      "ver": "1.0.3",
+      "uuid": "e5b0e595-c926-4341-a92f-52fd29964fb6",
+      "rawTextureUuid": "0a8d3e76-8b9c-4e59-a3ba-25d50f7b6fb5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": -135,
+      "trimX": 245,
+      "trimY": 279,
+      "width": 414,
+      "height": 312,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

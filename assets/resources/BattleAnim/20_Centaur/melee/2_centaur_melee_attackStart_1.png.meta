@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "776dc775-cce4-42fa-b80c-72ba48075056",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "2_centaur_melee_attackStart_1": {
+      "ver": "1.0.3",
+      "uuid": "6457896d-906f-4163-9517-61392c06c1c8",
+      "rawTextureUuid": "776dc775-cce4-42fa-b80c-72ba48075056",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 94,
+      "offsetY": -105,
+      "trimX": 305,
+      "trimY": 243,
+      "width": 378,
+      "height": 324,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

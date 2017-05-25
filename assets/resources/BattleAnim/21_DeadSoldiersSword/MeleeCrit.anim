@@ -1,0 +1,133 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeCrit",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "2b25c78b-da3d-43c3-a910-6a286046beb0"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "3a14bb43-35db-40c1-b1ad-adc383a242ac"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "c3bf5d7e-e516-486d-a516-5576dc40ab24"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "7291692d-a47b-4706-935d-72bd57a007c7"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "9d1c3123-5e4a-4b78-af71-c3eb37f456a4"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "255e6a14-8424-4dc7-bc10-50defe7ab2dd"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "f5536ddd-8804-424e-b5a5-98c56b0decae"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "1adc735d-cc34-4be6-88fd-5577535f5e34"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "eaa79040-5050-4b5a-be28-82ae59921022"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "3bf3f0a0-87b8-447f-b754-8c917ffa79dd"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "975faf64-073d-4be4-ae0d-1cc21f49551d"
+            }
+          },
+          {
+            "frame": 0.7333333333333333,
+            "value": {
+              "__uuid__": "8c9d3926-989c-417a-90a8-45a51301b6df"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "924a793f-71d8-4918-8e8b-b7935066bb8c"
+            }
+          },
+          {
+            "frame": 1.1666666666666667,
+            "value": {
+              "__uuid__": "0696c90d-99f4-4786-a49d-764ad1c4c628"
+            }
+          },
+          {
+            "frame": 1.2333333333333334,
+            "value": {
+              "__uuid__": "dd4c430e-7b64-4c5c-8233-28ad2169c314"
+            }
+          },
+          {
+            "frame": 1.3,
+            "value": {
+              "__uuid__": "5e3eb2a9-5b9d-482d-874d-c609530934fa"
+            }
+          },
+          {
+            "frame": 1.4166666666666667,
+            "value": {
+              "__uuid__": "727ef597-d435-4e59-b5a2-5f3e03f57863"
+            }
+          },
+          {
+            "frame": 1.4833333333333334,
+            "value": {
+              "__uuid__": "58ce91a6-f5c2-44f3-a979-86ebf4273afe"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1.4833333333333334,
+      "func": "MeleeAttack",
+      "params": []
+    }
+  ]
+}

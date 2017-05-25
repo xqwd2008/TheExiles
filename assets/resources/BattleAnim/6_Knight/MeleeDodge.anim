@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeDodge",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.38333333333333336,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "5e0ccf01-0afc-4a14-8fc6-2655cf20a0fb"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "77d0f457-2d3f-4796-8b6d-f2c77d318280"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "e92fc93c-4d37-46aa-b768-78ab276aa7bf"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "77d0f457-2d3f-4796-8b6d-f2c77d318280"
+            }
+          },
+          {
+            "frame": 0.36666666666666664,
+            "value": {
+              "__uuid__": "5e0ccf01-0afc-4a14-8fc6-2655cf20a0fb"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

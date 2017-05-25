@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "9ce7f6ee-2032-4093-a76c-ae5583f8c981",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "far_CavalryArcher_4_5_recycling": {
+      "ver": "1.0.3",
+      "uuid": "5fa73f68-e18f-491e-b07f-4955d7aaa09e",
+      "rawTextureUuid": "9ce7f6ee-2032-4093-a76c-ae5583f8c981",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 228,
+      "offsetY": -123,
+      "trimX": 549,
+      "trimY": 279,
+      "width": 258,
+      "height": 288,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

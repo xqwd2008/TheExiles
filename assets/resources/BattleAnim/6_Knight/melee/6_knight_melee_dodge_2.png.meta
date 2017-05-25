@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "b39ecb9b-1805-4f87-b5ba-c8f3d04de0a0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "6_knight_melee_dodge_2": {
+      "ver": "1.0.3",
+      "uuid": "e92fc93c-4d37-46aa-b768-78ab276aa7bf",
+      "rawTextureUuid": "b39ecb9b-1805-4f87-b5ba-c8f3d04de0a0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 88,
+      "offsetY": -123,
+      "trimX": 323,
+      "trimY": 279,
+      "width": 330,
+      "height": 288,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

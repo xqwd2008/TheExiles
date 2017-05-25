@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "123156f7-e994-45f3-85b4-def10b84fc3f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "7_knight_far_attackStart_3": {
+      "ver": "1.0.3",
+      "uuid": "e5134948-f615-40c2-a578-56deaf45b68c",
+      "rawTextureUuid": "123156f7-e994-45f3-85b4-def10b84fc3f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 162,
+      "offsetY": -81,
+      "trimX": 376,
+      "trimY": 195,
+      "width": 372,
+      "height": 372,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

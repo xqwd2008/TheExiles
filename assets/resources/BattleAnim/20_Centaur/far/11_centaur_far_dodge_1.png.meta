@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "86acea71-406d-4749-9d54-7f75fd0724a5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "11_centaur_far_dodge_1": {
+      "ver": "1.0.3",
+      "uuid": "b6fcc4ac-f489-422d-9895-4d4479d8b5f5",
+      "rawTextureUuid": "86acea71-406d-4749-9d54-7f75fd0724a5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 94,
+      "offsetY": -102,
+      "trimX": 365,
+      "trimY": 237,
+      "width": 258,
+      "height": 330,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

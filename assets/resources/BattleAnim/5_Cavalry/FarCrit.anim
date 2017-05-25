@@ -1,0 +1,135 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FarCrit",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "c531d012-60fa-4074-9907-50687ebc1f7d"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "93b04c4c-67c4-4987-ad5e-944b55401e97"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "ef6d233c-b4a6-4e4d-94b2-bc17a0e2014b"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "c0c533a5-83cf-4548-b5f6-f53b38c3b632"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "bd623721-7e8b-4624-a6bd-2b67aaa89ad0"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "924e2d71-b065-4bad-9bbe-565f2422182a"
+            }
+          },
+          {
+            "frame": 0.23333333333333334,
+            "value": {
+              "__uuid__": "726b899d-7917-4307-ade9-48086bab8101"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "121857e0-8ccf-484d-9b6d-9d15b6cb6ed1"
+            }
+          },
+          {
+            "frame": 0.36666666666666664,
+            "value": {
+              "__uuid__": "3d0b3fb3-25d9-4288-8301-f74366d56483"
+            }
+          },
+          {
+            "frame": 0.43333333333333335,
+            "value": {
+              "__uuid__": "883a5cf9-904a-4e36-9d94-b8ccb1abb1ef"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "4500f24e-0eee-494e-a46f-ff17f8a42b44"
+            }
+          },
+          {
+            "frame": 0.5666666666666667,
+            "value": {
+              "__uuid__": "cccecb00-1296-46be-a9bf-59056947fbd0"
+            }
+          },
+          {
+            "frame": 0.65,
+            "value": {
+              "__uuid__": "b3f180e0-f5ab-4ef8-8344-b700a9acb529"
+            }
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": {
+              "__uuid__": "e9f66238-bd76-4752-bb9a-6ed5fe53bd8b"
+            }
+          },
+          {
+            "frame": 0.8833333333333333,
+            "value": {
+              "__uuid__": "2b743827-4f87-4d11-822a-20772054d88d"
+            }
+          },
+          {
+            "frame": 0.9333333333333333,
+            "value": {
+              "__uuid__": "23b30964-1826-4040-b0f3-c6ac109bee73"
+            }
+          },
+          {
+            "frame": 1.0333333333333334,
+            "value": {
+              "__uuid__": "b3e005dc-0e41-4497-afef-dfe0acd83065"
+            }
+          },
+          {
+            "frame": 1.0833333333333333,
+            "value": {
+              "__uuid__": "ec1afdda-beb4-46a5-ab2e-b7104c082ffe"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1.0833333333333333,
+      "func": "FarAttack",
+      "params": [
+        "javelin"
+      ]
+    }
+  ]
+}

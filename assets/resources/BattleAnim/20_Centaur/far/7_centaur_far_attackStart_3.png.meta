@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "160e39dd-b286-42b4-8ba2-37881b740146",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "7_centaur_far_attackStart_3": {
+      "ver": "1.0.3",
+      "uuid": "b4a52d2f-4ee4-4f30-805d-efdc9c8fca06",
+      "rawTextureUuid": "160e39dd-b286-42b4-8ba2-37881b740146",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 52,
+      "offsetY": -111,
+      "trimX": 275,
+      "trimY": 255,
+      "width": 354,
+      "height": 312,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

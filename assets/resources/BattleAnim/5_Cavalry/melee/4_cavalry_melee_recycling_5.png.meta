@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "868e911f-8349-40af-82b0-a6b247ddef87",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "4_cavalry_melee_recycling_5": {
+      "ver": "1.0.3",
+      "uuid": "cefe532d-834c-4d98-b2aa-3432631dca1a",
+      "rawTextureUuid": "868e911f-8349-40af-82b0-a6b247ddef87",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 121,
+      "offsetY": -135,
+      "trimX": 347,
+      "trimY": 291,
+      "width": 348,
+      "height": 288,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

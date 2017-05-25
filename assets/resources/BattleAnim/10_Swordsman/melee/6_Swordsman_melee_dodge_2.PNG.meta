@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "7d58d484-c1c8-4d18-9939-05a856a09abf",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "6_Swordsman_melee_dodge_2": {
+      "ver": "1.0.3",
+      "uuid": "e19d22c1-b39a-43cb-a8b7-45e02b3182b3",
+      "rawTextureUuid": "7d58d484-c1c8-4d18-9939-05a856a09abf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 245,
+      "offsetY": -159,
+      "trimX": 623,
+      "trimY": 351,
+      "width": 144,
+      "height": 216,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

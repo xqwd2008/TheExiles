@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "bbe81bdb-c270-43d2-880e-1e057d1bad42",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "melee_7_dodge_2": {
+      "ver": "1.0.3",
+      "uuid": "3eb634bf-36b0-45d7-b3c3-8539f904e183",
+      "rawTextureUuid": "bbe81bdb-c270-43d2-880e-1e057d1bad42",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 196,
+      "offsetY": -161,
+      "trimX": 574,
+      "trimY": 353,
+      "width": 144,
+      "height": 216,
+      "rawWidth": 900,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -13,7 +13,7 @@
         {
           "frame": 0,
           "value": 255,
-          "curve": "cubicIn"
+          "curve": "cubicOut"
         },
         {
           "frame": 0.5833333333333334,

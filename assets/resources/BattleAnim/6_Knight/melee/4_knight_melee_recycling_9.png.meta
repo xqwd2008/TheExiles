@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0cedd83a-deef-44ed-90bd-a34272bdbfd2",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "4_knight_melee_recycling_9": {
+      "ver": "1.0.3",
+      "uuid": "4a055491-9d06-4c09-8db5-78fffb5cb3c3",
+      "rawTextureUuid": "0cedd83a-deef-44ed-90bd-a34272bdbfd2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -27,
+      "offsetY": -35,
+      "trimX": 148,
+      "trimY": 98,
+      "width": 450,
+      "height": 474,
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

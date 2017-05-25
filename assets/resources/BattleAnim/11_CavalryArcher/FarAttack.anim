@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FarAttack",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.55,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "02b6b94e-a552-43dc-ac4a-f268b42a0f39"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "f01a50eb-246d-4fb2-ae49-10c27142969b"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "1894e4aa-11b1-454c-b2da-96a488c0b645"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "c4d18cd8-3be9-4093-abe7-8e0c4a546a43"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "b6b8e6c8-3988-4a81-a804-90a65046760d"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.5333333333333333,
+      "func": "FarAttack",
+      "params": [
+        "arrow"
+      ]
+    }
+  ]
+}

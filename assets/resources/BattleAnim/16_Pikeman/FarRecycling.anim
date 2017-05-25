@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FarRecycling",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.45,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "e7abacef-4da2-4831-add4-440941067290"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "82f37fa5-e7fc-4244-b447-ac262bd294bf"
+            }
+          },
+          {
+            "frame": 0.23333333333333334,
+            "value": {
+              "__uuid__": "a2d0d425-5750-4dbe-8561-61b48579268b"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "6f7af6f3-12a5-4cd9-a9e1-cfdf099ec1a4"
+            }
+          },
+          {
+            "frame": 0.36666666666666664,
+            "value": {
+              "__uuid__": "9ae5ceb3-0172-4a95-94ff-e9564fe2c40c"
+            }
+          },
+          {
+            "frame": 0.43333333333333335,
+            "value": {
+              "__uuid__": "bc0585ad-234a-4de8-aced-dac5426dd0e5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

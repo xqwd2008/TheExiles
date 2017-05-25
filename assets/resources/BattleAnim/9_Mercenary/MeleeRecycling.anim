@@ -1,0 +1,103 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "MeleeRecycling",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.9166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "d3889f22-c6b1-4b83-a5e8-4757db72f367"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "bfeabe6a-2a07-4c78-a3b5-55fde545117a"
+            }
+          },
+          {
+            "frame": 0.23333333333333334,
+            "value": {
+              "__uuid__": "fe901166-eb5a-4087-9fac-6a4222612068"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "9b9bb2f4-ffa5-4af6-be09-3a31a1160f9e"
+            }
+          },
+          {
+            "frame": 0.36666666666666664,
+            "value": {
+              "__uuid__": "14da9fcc-7a6b-4c3b-afba-21de886ffd57"
+            }
+          },
+          {
+            "frame": 0.43333333333333335,
+            "value": {
+              "__uuid__": "4b69423b-6e87-496f-9880-36249ebeebee"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "140bd1e7-6730-4e66-9ead-9095040e4d79"
+            }
+          },
+          {
+            "frame": 0.5666666666666667,
+            "value": {
+              "__uuid__": "64582002-3fd8-42c9-a40c-4b018c551b8a"
+            }
+          },
+          {
+            "frame": 0.6333333333333333,
+            "value": {
+              "__uuid__": "c4537db6-b004-4f59-934d-25dafaf05c3c"
+            }
+          },
+          {
+            "frame": 0.7,
+            "value": {
+              "__uuid__": "6892b6d7-f26f-44e5-8458-6eafad08c015"
+            }
+          },
+          {
+            "frame": 0.7666666666666667,
+            "value": {
+              "__uuid__": "9d5859e9-43e1-4e03-aec7-3c92ee51d36e"
+            }
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": {
+              "__uuid__": "fae7b15c-df2c-42c6-baec-1ba184c7843a"
+            }
+          },
+          {
+            "frame": 0.9,
+            "value": {
+              "__uuid__": "328f9e4d-6419-48f6-894a-58adbcb3e109"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.9,
+      "func": "Attack",
+      "params": []
+    }
+  ]
+}
