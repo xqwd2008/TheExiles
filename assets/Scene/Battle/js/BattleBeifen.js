@@ -38,13 +38,14 @@ cc.Class({
         }else{
             this.action = true;
         }
+        this.node.getComponent(cc.Animation).play();
     },
-    
+    //加载头像
     head:function(){
         this.loader(data.data.Berserker.url1, this.enemyHead.getComponent(cc.Sprite), true, cc.SpriteFrame);
         this.loader(data.data.Archer.url1, this.heroHead.getComponent(cc.Sprite), true, cc.SpriteFrame);
     },
-    
+    //加载动画
     anim:function(){
         data.data.Archer.distance?this.loader(data.data.Archer.url3, this.hero.getComponent(cc.Sprite), true, cc.SpriteFrame):
         this.loader(data.data.Archer.url2, this.hero.getComponent(cc.Sprite), true, cc.SpriteFrame);
@@ -55,13 +56,13 @@ cc.Class({
         this.animFor(data.data.Berserker, this.enemy.getComponent(cc.Animation), false, cc.AnimationClip,`anim`);
         this.animFor(data.data.Archer, this.hero.getComponent(cc.Animation), false, cc.AnimationClip,`anim`);
     },
-    
+    //动画加载循环
     animFor:function(character, component, bl, type, category){
         for(var i = 1; i < character.anim; ++i){
             this.loader(character[category + i], component, bl, type);
         }
     },
-    
+    //进行加载
     loader:function(url, sprite, bl, type){
         cc.loader.loadRes(url, type, function (error, spriteFrame){
             if (!error) {
@@ -69,7 +70,7 @@ cc.Class({
             }
         });
     },
-    
+    //回合对象
     actionObject:function(){
         if(this.action){
             this.round = this.hero;
@@ -89,7 +90,7 @@ cc.Class({
             this.dis = data.data.Berserker;
         }
     },
-    
+    //开局双方位置进场
     distance:function(event, dis){
         if(!data.data.Archer.distance && !data.data.Berserker.distance){
             this.heroDis = 0;
@@ -107,7 +108,7 @@ cc.Class({
             this.distanceIf();
         }, this)));
     },
-    
+    //战斗时的位置调整
     distanceIf:function(){
         this.match.setSiblingIndex(0);
         this.anima = this.dis.Far;
@@ -123,8 +124,14 @@ cc.Class({
                 this.range = this.range - 1;
                 this.anima = this.dis.Melee;
             }else{
-                this.round.getComponent(cc.Animation).play(this.anima);
-                this.action = !this.action;
+                if(this.range === 0){
+                    if(!this.SwitchBl){
+                        this.anima = this.dis.Melee;
+                        this.round.getComponent("Character").SwitchPlay();
+                    }
+                }else{
+                    this.SwitchPlay();
+                }
             }
         }else{
             this.roundDis = this.roundDis - 1;
@@ -132,7 +139,7 @@ cc.Class({
             this.roundRun();
         }
     },
-    
+    //位置行动
     roundRun:function(){
         this.round.runAction(cc.sequence(cc.moveTo(0.1, this.corX*this.roundDis + this.cor + this.dis.correct, -200 + this.dis.correctY), cc.moveBy(0.2, 0, 0), cc.callFunc(function () {
             if(this.dis.distance >= this.range){
@@ -146,7 +153,7 @@ cc.Class({
             this.roundY = this.round.getPositionY();
         }, this)));
     },
-    
+    //投射判定
     arms:function(ac){
         if(ac == "castAx"){
             this.castAx();
@@ -154,7 +161,7 @@ cc.Class({
             ac == "arrow"?this.arrow():this.javelin();
         }
     },
-    
+    //投斧
     castAx:function(){
         this.armsUp(this.weapon[0]);
         this.weapon[0].runAction(cc.sequence(cc.moveTo(0.3, cc.p(this.match.getPositionX(), this.round.getPositionY()+this.dis.shot.inY + this.dis.shot.upY)).easing(cc.easeCircleActionOut()),
@@ -166,7 +173,7 @@ cc.Class({
             this.actionObject();
         }, this)));
     },
-    
+    //箭矢
     arrow:function(){
         this.armsUp(this.weapon[1]);
         this.weapon[1].runAction(cc.sequence(cc.moveTo(0.1, this.match.getPositionX() + this.dis.range, this.roundY + this.dis.shot.outY),
@@ -178,7 +185,7 @@ cc.Class({
         }, this)));
         
     },
-    
+    //标枪
     javelin:function(){
         this.armsUp(this.weapon[2]);
         this.weapon[2].runAction(cc.sequence(cc.moveTo(0.15, cc.p(500, this.match.getPositionY()+200)).easing(cc.easeCircleActionOut()),
@@ -189,11 +196,16 @@ cc.Class({
             this.actionObject();
         }, this)));
     },
-    
+    //投射物位置
     armsUp:function(node){
         node.setPosition(this.roundX + this.dis.shot.inX, this.roundY + this.dis.shot.inY);
         node.opacity = 255;
         node.scaleX = this.round.scaleX;
         node.getComponent(cc.Animation).play();
+    },
+    //切换武器动作
+    SwitchPlay:function(){
+        this.round.getComponent(cc.Animation).play(this.anima);
+        this.action = !this.action;
     },
 });

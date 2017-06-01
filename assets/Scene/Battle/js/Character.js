@@ -48,4 +48,16 @@ cc.Class({
         }
         
     },
+    
+    SwitchPlay:function(){
+        if(!this.SwitchBl){
+            this.node.getComponent(cc.Animation).play("Switch");
+        }else{
+            this.game.getComponent("Battle").SwitchPlay();
+        }
+    },
+    
+    SwitchIf:function(){
+        this.SwitchBl = true;
+    },
 });

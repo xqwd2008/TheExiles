@@ -44,6 +44,11 @@
       "frame": 0.2,
       "func": "Switch",
       "params": []
+    },
+    {
+      "frame": 0.2,
+      "func": "SwitchIf",
+      "params": []
     }
   ]
 }

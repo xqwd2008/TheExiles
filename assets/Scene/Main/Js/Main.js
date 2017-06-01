@@ -44,7 +44,7 @@ cc.Class({
     },
     onLoad: function () {
         //中英文标题的切换cc.log(1);
-        let lang = cc.sys.language;
+        var lang = cc.sys.language;
         var titleurl = "menu/title_ch";
         var title = this.titleEn.getComponent(cc.Sprite);
         if (lang === 'zh') {

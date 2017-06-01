@@ -6,19 +6,19 @@
   "includeSdk": [
     "anysdk"
   ],
-  "inlineSpriteFrames": true,
+  "inlineSpriteFrames": false,
   "mergeStartScene": false,
   "oauthLoginServer": "",
   "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
+    "landscapeLeft": false,
+    "landscapeRight": false,
+    "portrait": true,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.helloworld",
+  "packageName": "org.cocos2d.TheExiles",
   "privateKey": "",
   "renderMode": "0",
-  "startScene": "4d6e18fc-9780-494b-be7e-aa45460cfe19",
-  "title": "hello_world",
+  "startScene": "9ad5f1f6-2045-427f-b59d-0cc91bcc09b5",
+  "title": "TheExiles",
   "webOrientation": "portrait"
 }

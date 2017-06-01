@@ -54,7 +54,7 @@ cc.Class({
     
     mainLoad: function(){
         if(this.switch){
-            cc.director.loadScene("Main");
+            cc.director.loadScene("Main1");
         }
     },
     

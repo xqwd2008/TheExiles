@@ -60,7 +60,6 @@ cc.Class({
     eventUp:function(map, i, startNumer, event){
         this.map = map;
         this.startNumer = startNumer;
-        //this.event = event;
         this.buttonNode.runAction(cc.fadeTo(0, 0));
         this.npc = map.map[`numer` + this.startNumer].npc[`npc` + i];
         var photoUrl = this.npc.photoUrl;
